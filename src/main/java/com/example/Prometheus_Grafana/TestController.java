@@ -11,4 +11,13 @@ public class TestController {
 		return "Hello World";
 
 	}
+
+	@GetMapping("/")
+	public String test() {
+		return "Application is working properly";
+
+	}
+
+
+
 }
